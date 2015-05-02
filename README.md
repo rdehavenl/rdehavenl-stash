@@ -1,8 +1,13 @@
-#My First Readme
+# Richard's Stash
 
-##Lookie Here
+> A random assortment of my crap!
+
+Table of Contents
+=================
+1.
+2.
+3.
+4.
+5.
 
 
-```
-Test this code here
-```
