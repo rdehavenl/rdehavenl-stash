@@ -2,8 +2,8 @@
 
 > A random assortment of my crap!
 
-Table of Contents
-=================
+##Table of Contents
+
 1.
 2.
 3.
