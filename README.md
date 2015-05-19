@@ -8,8 +8,7 @@
 
 # Table of Contents
   1. [Description](#description)
-  2. [Examples](##examples)
-  3. [Markdown is Fun!](##markdown-is-fun!)
+  2. [Examples](#examples)
 
 # Description
 
@@ -26,8 +25,5 @@
     require   =>  Class[DingleBerry]
   }
   ```
-  
-## Markdown is Fun!
-  Yes, indeed it is
 
 
