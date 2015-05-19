@@ -2,12 +2,32 @@
 
 > A random assortment of my crap!
 
-##Table of Contents
+# Heading 1
+## Heading 2
+### Heading 3
 
-1.
-2.
-3.
-4.
-5.
+## Table of Contents
+  1. [Description]
+  2. [Examples]
+  3. [Markdown is Fun!]
+
+## Description
+
+  This is a description for my new module
+    `dig @8.8.8.8 google.com`
+    
+
+## Examples
+  This is a code Example `inline`
+  
+  ```ruby
+  class { "module name":
+    enabled   =>  true,
+    require   =>  Class[DingleBerry]
+  }
+  ```
+  
+## Markdown is Fun!
+  Yes, indeed it is
 
 
