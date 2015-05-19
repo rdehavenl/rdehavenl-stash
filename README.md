@@ -7,8 +7,8 @@
 ### Heading 3
 
 # Table of Contents
-  1. [Description](#Description)
-  2. [Examples]
+  1. [Description](#description)
+  2. [Examples](#examples)
   3. [Markdown is Fun!](##Markdown-is-Fun!)
 
 # Description
