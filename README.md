@@ -8,8 +8,8 @@
 
 # Table of Contents
   1. [Description](#description)
-  2. [Examples](#examples)
-  3. [Markdown is Fun!](##Markdown-is-Fun!)
+  2. [Examples](##examples)
+  3. [Markdown is Fun!](##markdown-is-fun!)
 
 # Description
 
@@ -17,7 +17,7 @@
     `dig @8.8.8.8 google.com`
     
 
-# Examples
+## Examples
   This is a code Example `inline`
   
   ```ruby
