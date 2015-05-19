@@ -6,18 +6,18 @@
 ## Heading 2
 ### Heading 3
 
-## Table of Contents
+# Table of Contents
   1. [Description](##Description)
   2. [Examples](#Examples)
-  3. [Markdown is Fun!](##Markdown is Fun!)
+  3. [Markdown is Fun!](##Markdown-is-Fun!)
 
-## Description
+# Description
 
   This is a description for my new module
     `dig @8.8.8.8 google.com`
     
 
-## Examples
+# Examples
   This is a code Example `inline`
   
   ```ruby
