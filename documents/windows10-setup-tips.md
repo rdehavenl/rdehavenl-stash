@@ -31,6 +31,7 @@
 ### Windows make
   - Install [NMAKE](https://msdn.microsoft.com/en-us/library/dd9y37ha.aspx)
   as part of the '__Microsoft Visual C++ Build Tools__' package
+  - If you don't need any MS SDK's then pick '__Custom__' and de-select any SDK's
   - It will use the `Makefile` in the current directory unless otherwise
   specified using the `/F filename` option
   - In my builds I will have targets `win-{blah}` so that I can maintain
