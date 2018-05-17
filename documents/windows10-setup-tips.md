@@ -32,7 +32,7 @@
   - Enable Hyper-V from '__Turn Windows features on or off__'
   - Download and install Vagrant
 
-### Hyper-V with Hybernate on Surface inline
+### Hyper-V with Hybernate on Surface
   Important: Before you enable Hyper-V you MUST ensure hibernation is turned on
 
   1. Ensure Hiberfile is supported  
@@ -46,6 +46,6 @@
         Hibernate
         Fast Startup
     ```
-    3. You can now enable Hyper-V from the '__Turn Windows features on or off__' dialog
-    4. It's Windows: Of course you reboot now :)
-    5. Optional... But sometimes required: Set '__Hyper-V Virtual Machine Management__' to '__Manual__'
+  3. You can now enable Hyper-V from the '__Turn Windows features on or off__' dialog
+  4. It's Windows: Of course you reboot now :)
+  5. Optional... But sometimes required: Set '__Hyper-V Virtual Machine Management__' to '__Manual__'
