@@ -28,6 +28,14 @@
       linter-jsonlint
     ```
 
+### Windows make
+  - Install [NMAKE](https://msdn.microsoft.com/en-us/library/dd9y37ha.aspx)
+  as part of the '__Microsoft Visual C++ Build Tools__' package
+  - It will use the `Makefile` in the current directory unless otherwise
+  specified using the `/F filename` option
+  - In my builds I will have targets `win-{blah}` so that I can maintain
+  cross-compatiility of the make file between \*nix and win-cmd
+
 ### Vagrant\\Hyper-V
   - Enable Hyper-V from '__Turn Windows features on or off__'
   - Download and install Vagrant
