@@ -41,20 +41,34 @@
   - Enable Hyper-V from '__Turn Windows features on or off__'
   - Download and install Vagrant
 
-### Hyper-V with Hybernate on Surface
-  Important: Before you enable Hyper-V you MUST ensure hibernation is turned on
+### Hyper-V with Hibernate on Surface and other battery saving tips
+    Important: Before you enable Hyper-V you MUST ensure hibernation is turned on
 
-  1. Ensure Hiberfile is supported  
-    `powercfg /H on /TYPE full`
-  2. Validate that this worked:  
-    `powercfg /a`
-    Example Output:
-    ```
-    The following sleep states are available on this system:
-        Standby (S0 Low Power Idle) Network Disconnected
-        Hibernate
-        Fast Startup
-    ```
-  3. You can now enable Hyper-V from the '__Turn Windows features on or off__' dialog
-  4. It's Windows: Of course you reboot now :)
-  5. Optional... But sometimes required: Set '__Hyper-V Virtual Machine Management__' to '__Manual__'
+  1. Enable Hibernate that can support Hyper-V
+      1. Ensure Hiberfile is supported  
+      `powercfg /H on /TYPE full`
+      2. Validate that this worked:  
+      `powercfg /a`  
+      Example Output:
+        ```
+        The following sleep states are available on this system:
+            Standby (S0 Low Power Idle) Network Disconnected
+            Hibernate
+            Fast Startup
+        ```
+      3. You can now enable Hyper-V from the '__Turn Windows features on or off__' dialog
+      4. It's Windows: Of course you reboot now :)
+      5. Optional... But sometimes required: Set '__Hyper-V Virtual Machine Management__' to '__Manual__'
+  2. Laptop Power Saving (Settings>>System>>Power and Sleep)
+      1. Screen Turn-off Timeout
+          - On Battery: 1 min
+          - On Power: 5 min
+      2. Sleep after
+          - On Battery: 4 min
+          - On Power: 10 min
+      3. Network Connection (Sleep and Battery, Disconnect)
+          - Always
+      4. Additional Power Settings -> Change Plan Settings -> Change Advanced Power Settings
+          - Sleep -> Hibernate After
+            - On Battery: 15 mins
+            - On Power: Never
