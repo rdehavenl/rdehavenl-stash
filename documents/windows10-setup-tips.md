@@ -29,6 +29,9 @@
     ```
 
 ### Windows make
+  Note: I'm pretty sure this is pointless, and there will be no using the same
+  makefile
+  
   - Install [NMAKE](https://msdn.microsoft.com/en-us/library/dd9y37ha.aspx)
   as part of the '__Microsoft Visual C++ Build Tools__' package
   - If you don't need any MS SDK's then pick '__Custom__' and de-select any SDK's
