@@ -2,9 +2,6 @@
 Windows 10 Setup Tips
 ====
 
-Table of Contents
-----
-
 ====
 Tips
 ====
@@ -34,13 +31,16 @@ Git for Windows
   - `C:\data\${app}\bin`
 
   - `C:\Users\%USERNAME%\apps\bin`
-  
+
 
 Atom Editor
 ----
   - Fix the Windows natvie compilers:  
+
     `apm install --check`
+
   - Install my favorite packages:  
+  
     ``` cmd
     apm install ^
       linter
