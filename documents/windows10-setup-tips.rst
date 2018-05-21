@@ -41,7 +41,8 @@ Atom Editor
 
 - Install my favorite packages:  
 
-  .. code:: cmd
+.. code:: bat
+
   apm install ^
     linter
     linter-jsonlint
