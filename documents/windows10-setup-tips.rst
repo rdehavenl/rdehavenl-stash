@@ -67,7 +67,8 @@ Vagrant\\Hyper-V
 
 Hyper-V with Hibernate on Surface and other battery saving tips
 ----
-    Important: Before you enable Hyper-V you MUST ensure hibernation is turned on
+.. important:: Important:Before you enable Hyper-V you MUST ensure 
+   hibernation is turned on
 
   1. Enable Hibernate that can support Hyper-V
       1. Ensure Hiberfile is supported  
