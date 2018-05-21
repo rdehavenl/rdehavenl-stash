@@ -11,18 +11,30 @@ Tips
 
 Git for Windows
 ----
-  - Configure Windows for 'Developer Mode'
-  - Install Git for Windows
-    - Use the defalts for everything, except:
-      - Ensure '__Git__' LFS is selected
-      - Select '__Use the native Windows Secure Channel Library__'
-      - Select '__Enable symbolic links__'
-  - Choice of Git Directories (Outside of OneDrive's default pervue)
-    - `C:\data\git`
-    - `C:\Users\%USERNAME%\git`
-  - Custom User Bin Location (For things like Vagrant, Pakcer, etc...)
-    - `C:\data\${app}\bin`
-    - `C:\Users\%USERNAME%\apps\bin`
+- Configure Windows for 'Developer Mode'
+
+- Install Git for Windows
+
+  - Use the defalts for everything, except:
+
+    - Ensure '__Git__' LFS is selected
+
+    - Select '__Use the native Windows Secure Channel Library__'
+
+    - Select '__Enable symbolic links__'
+
+- Choice of Git Directories (Outside of OneDrive's default pervue)
+
+  - `C:\data\git`
+
+  - `C:\Users\%USERNAME%\git`
+
+- Custom User Bin Location (For things like Vagrant, Pakcer, etc...)
+
+  - `C:\data\${app}\bin`
+
+  - `C:\Users\%USERNAME%\apps\bin`
+  
 
 Atom Editor
 ----
