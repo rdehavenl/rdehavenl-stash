@@ -14,38 +14,37 @@ Git for Windows
 
   - Use the defalts for everything, except:
 
-    - Ensure '__Git__' LFS is selected
+    - Ensure **Git LFS** is selected
 
-    - Select '__Use the native Windows Secure Channel Library__'
+    - Select **Use the native Windows Secure Channel Library**
 
-    - Select '__Enable symbolic links__'
+    - Select **Enable symbolic links**
 
 - Choice of Git Directories (Outside of OneDrive's default pervue)
 
-  - `C:\data\git`
+  - ``C:\data\git``
 
-  - `C:\Users\%USERNAME%\git`
+  - ``C:\Users\%USERNAME%\git``
 
 - Custom User Bin Location (For things like Vagrant, Pakcer, etc...)
 
-  - `C:\data\${app}\bin`
+  - ``C:\data\${app}\bin``
 
-  - `C:\Users\%USERNAME%\apps\bin`
+  - ``C:\Users\%USERNAME%\apps\bin``
 
 
 Atom Editor
 ----
-  - Fix the Windows natvie compilers:  
+- Fix the Windows natvie compilers:  
 
-    `apm install --check`
+  ``apm install --check``
 
-  - Install my favorite packages:  
-  
-    ``` cmd
-    apm install ^
-      linter
-      linter-jsonlint
-    ```
+- Install my favorite packages:  
+
+  .. code:: cmd
+  apm install ^
+    linter
+    linter-jsonlint
 
 Windows make
 ----
