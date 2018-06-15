@@ -4,7 +4,7 @@
 
 ## Tips
 
-### Git for Windows
+### Git for Windows (With RSync)
   - Configure Windows for 'Developer Mode'
   - Install Git for Windows
     - Use the defalts for everything, except:
@@ -17,6 +17,10 @@
   - Custom User Bin Location (For things like Vagrant, Pakcer, etc...)
     - `C:\data\${app}\bin`
     - `C:\Users\%USERNAME%\apps\bin`
+  - Install 7-zip
+  - Download Rsync from MSYS2 Repo
+    - http://repo.msys2.org/msys/x86_64/
+  - Extract Rsync
 
 ### Atom Editor
   - Fix the Windows natvie compilers:  
